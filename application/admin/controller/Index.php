@@ -10,4 +10,14 @@ class Index extends Controller
     {
         return view('dashboard');
     }
+
+    public function login()
+    {
+        return view('login');
+    }
+
+    public function logout()
+    {
+
+    }
 }
